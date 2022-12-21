@@ -51,7 +51,7 @@ class _BeritaScreenState extends State<BeritaScreen> {
                           child: Image.network(
                             beritaCubit
                                 .beritaModel.data!.posts![index].thumbnail!,
-                          ), //get api thumnail dari model (code safru rozaky)
+                          ),
                         ),
                         SizedBox(
                           width: 205,
@@ -78,7 +78,7 @@ class _BeritaScreenState extends State<BeritaScreen> {
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 1,
                                   ),
-                                ), //(code safru rozaky)
+                                ),
                                 Text(
                                   beritaCubit.beritaModel.data!.posts![index]
                                       .description!,
